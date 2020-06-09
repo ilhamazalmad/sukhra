@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Profil"
+        android:title="@string/Profil"
+        android:icon="@drawable/ic_profil"
+        />
+    <item
+        android:id="@+id/Panier"
+        android:title="@string/Panier"
+        android:icon="@drawable/ic_panier"
+        />
+    <item
+        android:id="@+id/Catégories"
+        android:title="@string/Catégories"
+        android:icon="@drawable/ic_categorie"
+        />
+    <item
+        android:id="@+id/Commandes_en_attente"
+        android:title="@string/Commandes_en_attente"
+        android:icon="@drawable/ic_commandes"
+        />
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Réclamation"
+        android:title="@string/Réclamation"
+        android:icon="@drawable/ic_announcement"
+        />
+    <item
+        android:id="@+id/Déconnexion"
+        android:title="@string/Déconnexion"
+        android:icon="@drawable/ic_power"
+        />
+    </group>
+
+
+
+</menu>

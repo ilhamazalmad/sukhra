@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+    <style name="navigationTheme">
+        <!-- couleur du test selectionné -->
+        <item name="colorPrimary">@color/beige</item>
+        <!-- couleur du background. -->
+        <item name="colorControlHighlight">@color/gris1</item>
+
+
+    </style>
+
+</resources>
