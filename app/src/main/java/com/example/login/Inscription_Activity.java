@@ -168,7 +168,7 @@ public class Inscription_Activity extends AppCompatActivity {
                                         .addOnFailureListener(new OnFailureListener() {
                                             @Override
                                             public void onFailure(@NonNull Exception e) {
-                                                Snackbar.make(linearLayout, getString(R.string.error_compte_exists), Snackbar.LENGTH_LONG).show();
+                                                Snackbar.make(linearLayout, e.getMessage(), Snackbar.LENGTH_LONG).show();
                                             }
                                         });
                             }
